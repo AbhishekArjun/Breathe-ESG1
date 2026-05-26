@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  background-color: #0a1628;
+  color: #e2e8f0;
+}
+
+.card {
+  @apply bg-slate-800 border border-slate-700 rounded-xl;
+}
+
+.btn-primary {
+  @apply bg-forest-600 hover:bg-forest-500 text-white font-medium px-4 py-2 rounded-lg 
+         transition-colors duration-150 text-sm disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+.btn-ghost {
+  @apply bg-slate-700 hover:bg-slate-600 text-slate-200 font-medium px-4 py-2 rounded-lg 
+         transition-colors duration-150 text-sm;
+}
+
+.badge {
+  @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+}
+
+.badge-pending   { @apply bg-amber-900/50 text-amber-300 border border-amber-700/50; }
+.badge-approved  { @apply bg-forest-900/50 text-forest-300 border border-forest-700/50; }
+.badge-flagged   { @apply bg-orange-900/50 text-orange-300 border border-orange-700/50; }
+.badge-rejected  { @apply bg-red-900/50 text-red-300 border border-red-700/50; }
+.badge-scope1    { @apply bg-blue-900/50 text-blue-300; }
+.badge-scope2    { @apply bg-purple-900/50 text-purple-300; }
+.badge-scope3    { @apply bg-teal-900/50 text-teal-300; }
+
+.table-row-hover {
+  @apply hover:bg-slate-750 transition-colors duration-75;
+}
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #1e293b; }
+::-webkit-scrollbar-thumb { background: #334155; border-radius: 3px; }

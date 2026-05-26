@@ -1,0 +1,7 @@
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "gunicorn breathe_esg.wsgi --bind 0.0.0.0:$PORT --workers 2"
+healthcheckPath = "/api/stats/"
+restartPolicyType = "ON_FAILURE"

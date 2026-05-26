@@ -1,0 +1,17 @@
+meter_id,billing_period_start,billing_period_end,consumption,unit,tariff,site_name
+MTR-MUM-001,2024-01-07,2024-02-06,48750,kWh,Industrial HT,Mumbai HQ - Building A
+MTR-MUM-002,2024-01-07,2024-02-06,12300,kWh,Commercial LT,Mumbai HQ - Building B
+MTR-DEL-001,2024-01-12,2024-02-11,31200,kWh,Industrial HT,Delhi Office
+MTR-HYD-001,2024-01-15,2024-02-14,22600,kWh,Commercial LT,Hyderabad Campus
+MTR-MUM-001,2024-02-07,2024-03-06,51200,kWh,Industrial HT,Mumbai HQ - Building A
+MTR-MUM-002,2024-02-07,2024-03-06,11800,kWh,Commercial LT,Mumbai HQ - Building B
+MTR-DEL-001,2024-02-12,2024-03-11,29800,kWh,Industrial HT,Delhi Office
+MTR-HYD-001,2024-02-15,2024-03-14,24100,kWh,Commercial LT,Hyderabad Campus
+MTR-MUM-001,2024-03-07,2024-04-06,49600,kWh,Industrial HT,Mumbai HQ - Building A
+MTR-MUM-003,2024-03-01,2024-03-31,1250,MWh,Industrial HT,Mumbai Manufacturing Unit
+MTR-DEL-001,2024-03-12,2024-04-11,33400,kWh,Industrial HT,Delhi Office
+MTR-HYD-001,2024-03-15,2024-04-14,21900,kWh,Commercial LT,Hyderabad Campus
+MTR-MUM-001,2024-04-07,2024-05-06,44300,kWh,Industrial HT,Mumbai HQ - Building A
+MTR-DEL-002,2024-04-01,2024-04-30,8900,kWh,Commercial LT,Delhi Warehouse
+MTR-HYD-001,2024-04-15,2024-05-14,19800,kWh,Commercial LT,Hyderabad Campus
+MTR-MUM-004,2024-01-01,2024-01-03,680000,kWh,Industrial HT,Mumbai Data Center
